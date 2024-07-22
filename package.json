@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,7 +13,9 @@
     "react-dom": "19.0.0-rc-f38c22b244-20240704",
     "next": "14.2.5",
     "@heroicons/react": "^2.1.5",
-    "clsx": "^2.1.1"
+    "clsx": "^2.1.1",
+    "bcrypt": "^5.1.1",
+    "@vercel/postgres": "^0.8.0"
   },
   "devDependencies": {
     "typescript": "^5",
